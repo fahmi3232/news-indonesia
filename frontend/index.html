@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detikcom</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .nav-menu {
+            display: none;
+        }
+        .nav-menu.active {
+            display: block;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100" style="max-width: 90%; justify-content: center; margin: auto;">
+    <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600 shadow-md">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+          <a href="https://www.codewithfaraz.com/" class="flex items-center">
+              <img src="https://www.codewithfaraz.com/InstaPic.png" class="h-8 mr-3" alt="Flowbite Logo">
+              <!-- <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Codewithfaraz</span> -->
+              <div class="text-3xl font-bold text-blue-700">
+                detik<span class="text-red-600">Com</span>
+            </div>
+        </a>
+        <div class="flex md:order-2">
+          <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get started</button>
+          <button id="navbar-toggle" data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+            </svg>
+        </button>
+    </div>
+    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+        <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
+        </li>
+        <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Nasional</a>
+        </li>
+        <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Internasional</a>
+        </li>
+        <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Ekonomi</a>
+        </li>
+        <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Teknologi</a>
+        </li>
+        <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Bisnis</a>
+        </li>
+        <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Lifestyle</a>
+        </li>
+        <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Hiburan</a>
+        </li>
+    </ul>
+</div>
+</div>
+</nav>
+
+<!-- Marquee Text -->
+<div class="container mx-auto px-4 bg-blue-600 py-2 text-white marquee sub-nav">
+    <section class="w-full">
+        <div class="marquee marquee--hover-pause">
+            <ul class="marquee__content" id="marquee">
+
+            </ul>
+
+            <ul aria-hidden="true" class="marquee__content" id="marquee-dua">
+            </ul>
+        </div>
+    </section>
+
+</div>
+<!-- Content satu -->
+<div class="container mx-auto mt-4 grid grid-cols-1 md:grid-cols-3 gap-4">
+    <!-- Top Articles -->
+    <div class="col-span-1 md:col-span-3 grid grid-cols-2 md:grid-cols-5 gap-4" id="news-cards">
+        <div class="col-span-2 md:col-span-5 bg-gray-200 h-24 text-center">Ad Banner</div>
+            <!-- <div class="bg-white shadow-md p-4">
+                <img src="https://placehold.co/150x100" alt="News image" class="w-full h-32 object-cover mb-2">
+                <h2 class="font-bold text-sm">Ada Operasi Patuh, Melanggar Tak Ada Negonegoan!</h2>
+            </div>
+            <div class="bg-white shadow-md p-4">
+                <img src="https://placehold.co/150x100" alt="News image" class="w-full h-32 object-cover mb-2">
+                <h2 class="font-bold text-sm">Tak Ada Nama Sarwendah di Alamat yang Dikasih Pihak Ruben Onsu ke PN Jaksel</h2>
+            </div>
+            <div class="bg-white shadow-md p-4">
+                <img src="https://placehold.co/150x100" alt="News image" class="w-full h-32 object-cover mb-2">
+                <h2 class="font-bold text-sm">Kok Makin Banyak Usia Muda Sudah Kena Gagal Ginjal? Dokter Ungkap Pemicunya</h2>
+            </div>
+            <div class="bg-white shadow-md p-4">
+                <img src="https://placehold.co/150x100" alt="News image" class="w-full h-32 object-cover mb-2">
+                <h2 class="font-bold text-sm">Mengkorek Rasanya Tinggal di Rumah Terkepung Gunung Sampah</h2>
+            </div>
+            <div class="bg-white shadow-md p-4">
+                <img src="https://placehold.co/150x100" alt="News image" class="w-full h-32 object-cover mb-2">
+                <h2 class="font-bold text-sm">Pemerintah Diminta Kaji Ulang Penanaman Buah Kecubung</h2>
+            </div> -->
+        </div>
+        <!-- Main News -->
+        <div class="col-span-1 md:col-span-2 bg-white shadow-md p-4" id="news-cards-dua">
+            <!-- <img src="https://placehold.co/500x300" alt="Main news image" class="w-full h-64 object-cover mb-4">
+            <h1 class="font-bold text-2xl mb-2">Anies Unggul di Jakarta, PKS: Personalnya Menjual. Koalisi Insyaallah Kokoh</h1>
+            <p class="text-sm text-gray-600 mb-4">detikNews | 4 menit yang lalu</p>
+            <div class="text-sm space-y-2">
+                <p class="font-bold text-blue-600">Berita Terkait:</p>
+                <p class="text-blue-600">PDIP Tak Heran Anies-Ahok Unggul di Jakarta Versi Litbang Kompas</p>
+                <p class="text-blue-600">Adu Kuat di Bursa Pilgub Jakarta Versi Survei Terkini</p>
+            </div> -->
+        </div>
+        <!-- Sidebar -->
+        <div class="col-span-1 space-y-4">
+            <div class="bg-white shadow-md h-48 text-center">Ad Banner</div>
+            <div class="bg-white shadow-md h-48 text-center">Ad Banner</div>
+            <div class="bg-white shadow-md h-48 text-center">Ad Banner</div>
+        </div>
+    </div>
+    <!-- Content dua -->
+    <div class="container mx-auto mt-4">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <!-- Promotions -->
+            <div class="col-span-1 md:col-span-3 bg-white shadow-md p-4">
+                <div class="flex flex-col md:flex-row items-center justify-between">
+                    <div>
+                        <h2 class="font-bold text-xl">Pre-order now</h2>
+                        <p class="text-gray-600">Starts from 729.125/month</p>
+                        <p class="text-gray-600">Period: 10 - 30 July 2024</p>
+                    </div>
+                    <img src="https://placehold.co/150x100" alt="Product image" class="w-32 h-24 object-cover mt-4 md:mt-0">
+                </div>
+            </div>
+            <!-- News Feed -->
+            <div class="col-span-1 md:col-span-3 bg-white shadow-md p-4">
+                <h2 class="font-bold text-lg mb-4">Olahraga</h2>
+                <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4" id="content-dua">
+                    <!-- <div class="flex-1 bg-gray-100 p-4 text-center">
+                        <img src="https://placehold.co/100x100" alt="News image" class="w-full h-24 object-cover mb-2">
+                        <p class="text-sm">Desain Baru Galaxy Z Fold 6 vs Fold 5, Pilih Mana?</p>
+                    </div>
+                    <div class="flex-1 bg-gray-100 p-4 text-center">
+                        <img src="https://placehold.co/100x100" alt="News image" class="w-full h-24 object-cover mb-2">
+                        <p class="text-sm">Desain Baru Galaxy Z Fold 6 vs Fold 5, Pilih Mana?</p>
+                    </div> -->
+                </div>
+            </div>
+            <!-- Bottom Ad Banner -->
+            <div class="col-span-1 md:col-span-3 bg-white shadow-md h-24 text-center">Ad Banner</div>
+        </div>
+    </div>
+
+    <!-- Content tiga -->
+    <div class=" mx-auto mt-4">
+        <!-- Main Content -->
+        <div class=" flex flex-wrap">
+            <!-- Left Column -->
+            <div class="w-full lg:w-2/3 p-2">
+                <div class="bg-white p-4 mb-4 rounded-lg shadow" id="content-tiga">
+                    <!-- <img src="https://placehold.co/600x400" alt="Mangkunegara X Hadir-Semangati Peserta Emeron Hijab Hunt 2024 Solo" class="w-full mb-4 rounded-lg">
+                    <h2 class="text-xl font-bold mb-2">Mangkunegara X Hadir-Semangati Peserta Emeron Hijab Hunt 2024 Solo</h2>
+                    <p class="text-gray-600 text-sm">10 jam yang lalu</p> -->
+                </div>
+
+                <!-- <h3 class="text-lg font-bold mb-2">Video Terpopuler</h3> -->
+                <div class="bg-white p-4 rounded-lg shadow mb-6">
+                    <h2 class="text-xl font-bold text-gray-900 mb-4">Lifestyle</h2>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4" id="content-tiga-sub">
+                        <!-- Lifestyle Items -->
+                        <!-- <div>
+                            <img src="https://placehold.co/200x150" alt="Athlete Village" class="w-full mb-2">
+                            <h4 class="text-lg font-bold text-gray-900">Cerita Lain dari Athlete Village</h4>
+                            <p class="text-sm text-gray-600">4 jam yang lalu</p>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="col-span-2 bg-white p-4 rounded-lg shadow mb-6" id="content-tiga-sub-dua">
+                    <!-- <div class="flex mb-6">
+                        <img src="https://placehold.co/120x80" alt="Wesley Fofana covering his face" class="w-32 h-24 object-cover">
+                        <div class="ml-4">
+                            <h2 class="text-xl font-semibold">Wesley Fofana: Donasi Enzo Fernandez Belum Cukup Lawan Rasisme</h2>
+                            <p class="text-gray-600">2 jam yang lalu</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="w-full lg:w-1/3 p-2">
+                <div class="bg-white p-4 mb-4 rounded-lg shadow">
+                    <h3 class="text-lg font-bold mb-2">Berita Terpopuler</h3>
+                    <ol class="list-decimal list-inside text-gray-800">
+                        <li class="mb-1">Ribuan Orang di Venezuela Demo Protes Klaim Kemenangan Pemilu Maduro</li>
+                        <li class="mb-1">Jokowi Sampaikan Maaf, Plt Ketum PBB: Kebesaran Jiwa Presiden</li>
+                        <li class="mb-1">Ahok: Secara Prinsip, PDIP Sulit Dukung Anies di Pilgub Jakarta</li>
+                        <li class="mb-1">Hasil Sprint Race MotoGP Inggris 2024: Enea Bastianini Pemenangnya</li>
+                        <li class="mb-1">Merino Dianggap Cocok Gantikan Partey</li>
+                    </ol>
+                    <button class="text-blue-500 mt-4">Lihat Selengkapnya ></button>
+                </div>
+
+                <div class="bg-white p-4 mb-4 rounded-lg shadow" id="content-tiga-sub-empat">
+                    <h3 class="text-lg font-semibold mb-4">Rekomendasi Untuk Anda</h3>
+                    <!-- <div class="flex mb-4">
+                        <img src="https://placehold.co/80x60" alt="detikSumbagsel article image" class="w-20 h-16 object-cover">
+                        <div class="ml-2">
+                            <p class="text-sm text-blue-600">detikSumbagsel</p>
+                            <h4 class="text-sm font-semibold">Sebelum Tewas Dibunuh Istri, Rinoyadi Sempat Minta Berhubungan Intim</h4>
+                        </div>
+                    </div> -->
+                </div>
+
+                <div class="bg-white p-4 mb-4 rounded-lg shadow">
+                    <h3 class="text-lg font-bold mb-2">Rekomendasi Untuk Anda</h3>
+                    <ul class="list-none text-gray-800">
+                        <li class="mb-1">detikSumatera: Sebelum Tewas Dibunuh Istri, Rinoyadi Sempat Minta Berhubungan Intim</li>
+                        <li class="mb-1">detikTravel: Si Kocong, Bocah Rusia yang Viral di Bali Akhirnya Dideportasi</li>
+                        <li class="mb-1">detikSport: Lalu Zohri: Maaf, tapi Jujur Saya Sudah Maksimal</li>
+                    </ul>
+                    <button class="text-blue-500 mt-4">Lihat Selengkapnya ></button>
+                </div>
+
+                <div class="bg-white p-4 mb-4 rounded-lg shadow">
+                    <h3 class="text-lg font-bold mb-2">Kolom</h3>
+                    <p class="text-gray-800">Kirimkan tulisan Anda seputar opini, gagasan, saran, dan peristiwa yang terjadi di sekitar Anda. Dapatkan kesempatan untuk menjadi bagian dari komisi detikcom.</p>
+                    <button class="text-blue-500 mt-4">Kirim Tulisan ></button>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Content empat -->
+    <div class="mx-auto mt-4">
+        <!-- Main Content -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            <!-- Column 1 -->
+            <div class="col-span-2">
+                <!-- Lifestyle Section -->
+                <div class="bg-white p-4 rounded-lg shadow mb-6">
+                    <h2 class="text-xl font-bold text-gray-900 mb-4">Berita Teknologi</h2>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4" id="content-empat">
+                        <!-- Berita Teknologi -->
+                        <!-- <div>
+                            <img src="https://placehold.co/200x150" alt="Athlete Village" class="w-full mb-2">
+                            <h4 class="text-lg font-bold text-gray-900">Cerita Lain dari Athlete Village</h4>
+                            <p class="text-sm text-gray-600">4 jam yang lalu</p>
+                        </div> -->
+                    </div>
+                </div>
+
+                <!-- News Section -->
+                <div class="bg-white p-4 rounded-lg shadow mb-6" id="content-empat-sub-satu">
+                    <!-- <div class="mb-4">
+                        <h2 class="text-xl font-bold text-gray-900">Wesley Fofana: Donasi Enzo Fernandez Belum Cukup Lawan Rasisme</h2>
+                        <p class="text-sm text-gray-600">2 jam yang lalu</p>
+                    </div> -->
+                </div>
+                <button id="load-more" class="bg-blue-500 text-white px-4 py-2 mt-4">Load More</button>
+            </div>
+
+            <!-- Column 2 -->
+            <div>
+                <!-- Suara Pembaca Section -->
+                <div class="bg-white p-4 rounded-lg shadow mb-6">
+                    <h2 class="text-xl font-bold text-gray-900 mb-4">Suara Pembaca</h2>
+                    <button class="bg-orange-500 text-white py-2 px-4 rounded mb-4 w-full">Kirim Suara Anda</button>
+                    <div class="mb-4">
+                        <p class="text-sm text-gray-600">Tidak Pernah Aktifkan Nomor Indosat. Dikirim Surat Tagihan</p>
+                        <p class="text-xs text-gray-400">Kamis, 01 Agu 2024 14:53 WIB</p>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm text-gray-600">Keluhan Penukaran Poin JLC menjadi E-Voucher</p>
+                        <p class="text-xs text-gray-400">Jumat, 02 Jul 2024 12:13 WIB</p>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm text-gray-600">Paket Kado Ulang Tahun Tak Sampai Tepat Waktu</p>
+                        <p class="text-xs text-gray-400">Selasa, 28 Jul 2024 17:03 WIB</p>
+                    </div>
+                    <button class="bg-orange-500 text-white py-2 px-4 rounded w-full">Ke Halaman Suara Pembaca</button>
+                </div>
+
+                <!-- Kolom Section -->
+                <div class="bg-white p-4 rounded-lg shadow mb-6">
+                    <h2 class="text-xl font-bold text-gray-900 mb-4">Kolom</h2>
+                    <button class="bg-orange-500 text-white py-2 px-4 rounded mb-4 w-full">Kirim Tulisan</button>
+                    <div class="mb-4">
+                        <h3 class="text-lg font-bold text-gray-900">Menapaki Jalan Pulang Mengakrabi Takdir</h3>
+                        <p class="text-sm text-gray-600">Penulis - Sunardi Siswodiharjo</p>
+                    </div>
+                    <div class="mb-4">
+                        <h3 class="text-lg font-bold text-gray-900">Perjuangan Meraih Pendidikan Setinggi-tingginya</h3>
+                        <p class="text-sm text-gray-600">Penulis - Waliyadin</p>
+                    </div>
+                    <div class="mb-4">
+                        <h3 class="text-lg font-bold text-gray-900">Pertanian Berkelanjutan dan Pembangunan Gizi Masyarakat</h3>
+                        <p class="text-sm text-gray-600">Penulis - Yoseph Yoneta Motong Wuwur</p>
+                    </div>
+                    <button class="bg-orange-500 text-white py-2 px-4 rounded w-full">Ke Halaman Kolom</button>
+                </div>
+
+                <!-- Rekomendasi Untuk Anda Section -->
+                <div class="bg-white p-4 rounded-lg shadow sticky top-0">
+                    <h2 class="text-xl font-bold text-gray-900 mb-4">Rekomendasi Untuk Anda</h2>
+                    <div class="mb-4">
+                        <img src="https://placehold.co/200x150" alt="detikSumbagsel" class="w-full mb-2">
+                        <h4 class="text-lg font-bold text-gray-900">Sebelum Tewas Dibunuh Istri, Rinoyadi Sempat Minta Berhubungan Intim</h4>
+                    </div>
+                    <button class="bg-gray-300 text-gray-900 py-2 px-4 rounded w-full">Lihat Selengkapnya</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 py-10 my-10">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0 md:space-x-6 text-center md:text-left">
+            <div class="md:w-1/4">
+                <div class="flex flex-col items-center md:items-start">
+                    <img src="https://placehold.co/200x50" alt="detikcom logo" class="mb-2">
+                    <p class="text-sm">part of <img src="https://placehold.co/100x20" alt="detiknetwork logo" class="inline-block"></p>
+                    <p class="mt-4">Connect With Us</p>
+                    <div class="flex space-x-2 mt-2">
+                        <a href="#"><i class="fab fa-whatsapp text-green-500"></i></a>
+                        <a href="#"><i class="fab fa-x-twitter text-blue-500"></i></a>
+                        <a href="#"><i class="fab fa-instagram text-pink-500"></i></a>
+                        <a href="#"><i class="fab fa-facebook text-blue-700"></i></a>
+                        <a href="#"><i class="fab fa-tiktok text-black"></i></a>
+                        <a href="#"><i class="fab fa-youtube text-red-600"></i></a>
+                    </div>
+                    <p class="mt-4 text-xs text-gray-500">Copyright © 2024 detikcom. All rights reserved</p>
+                </div>
+            </div>
+            <div class="md:w-3/4 grid grid-cols-2 md:grid-cols-5 gap-4 text-sm">
+                <div>
+                    <h3 class="font-bold mb-2">Kategori</h3>
+                    <ul>
+                        <li><a href="#">detikNews</a></li>
+                        <li><a href="#">detikEdukasi</a></li>
+                        <li><a href="#">detikFinance</a></li>
+                        <li><a href="#">detikInet</a></li>
+                        <li><a href="#">detikHot</a></li>
+                        <li><a href="#">detikSport</a></li>
+                        <li><a href="#">Sepakbola</a></li>
+                        <li><a href="#">detikOto</a></li>
+                        <li><a href="#">detikProperti</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-2">Layanan</h3>
+                    <ul>
+                        <li><a href="#">berbuatbaik.id</a></li>
+                        <li><a href="#">Pasang Mata</a></li>
+                        <li><a href="#">Adsmart</a></li>
+                        <li><a href="#">Forum</a></li>
+                        <li><a href="#">detikEvent</a></li>
+                        <li><a href="#">Signature Awards</a></li>
+                        <li><a href="#">Trans Snow World</a></li>
+                        <li><a href="#">Trans Studio</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-2">Informasi</h3>
+                    <ul>
+                        <li><a href="#">Redaksi</a></li>
+                        <li><a href="#">Pedoman Media Siber</a></li>
+                        <li><a href="#">Karir</a></li>
+                        <li><a href="#">Kotak Pos</a></li>
+                        <li><a href="#">Media Partner</a></li>
+                        <li><a href="#">Info Iklan</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Disclaimer</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-2">Jaringan Media</h3>
+                    <ul>
+                        <li><a href="#">CNN Indonesia</a></li>
+                        <li><a href="#">CNBC Indonesia</a></li>
+                        <li><a href="#">Haibunda</a></li>
+                        <li><a href="#">Insertlive</a></li>
+                        <li><a href="#">Beautynesia</a></li>
+                        <li><a href="#">Female Daily</a></li>
+                        <li><a href="#">CXO Media</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-2">Jaringan Media</h3>
+                    <ul>
+                        <li><a href="#">CNN Indonesia</a></li>
+                        <li><a href="#">CNBC Indonesia</a></li>
+                        <li><a href="#">Haibunda</a></li>
+                        <li><a href="#">Insertlive</a></li>
+                        <li><a href="#">Beautynesia</a></li>
+                        <li><a href="#">Female Daily</a></li>
+                        <li><a href="#">CXO Media</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const button = document.getElementById('navbar-toggle');
+          const menu = document.getElementById('navbar-sticky');
+
+          button.addEventListener('click', function () {
+            menu.classList.toggle('hidden');
+        });
+      });
+
+        const sections = document.querySelectorAll("section");
+
+        [...sections].forEach((section) => {
+          const checkbox = section.querySelector("input");
+
+        //   checkbox.addEventListener("change", () => {
+        //     section.classList.toggle("enable-animation");
+        // });
+
+          checkbox = section.classList.toggle("enable-animation")
+      });
+
+  </script>
+
+  <script src="js/content-satu.js"></script>
+  <script src="js/content-dua.js"></script>
+  <script src="js/content-tiga.js"></script>
+  <script src="js/content-empat.js"></script>
+  <script src="js/marquee.js"></script>
+</body>
+
+</html>
